@@ -34,7 +34,6 @@ while True:
         
         # if left hand
         if lmList[tipIds[0]][1] < lmList[tipIds[4]][1]:
-            print("sol el")
             if lmList[tipIds[0]][1] < lmList[tipIds[0]-1][1]:
                 fingers.append(1)
             else:

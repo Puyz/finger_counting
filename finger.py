@@ -39,7 +39,6 @@ while True:
             else:
                 fingers.append(0)
         else:
-             print("sağ el")
              if lmList[tipIds[0]][1] > lmList[tipIds[0]-1][1]:
                 fingers.append(1)
              else:
